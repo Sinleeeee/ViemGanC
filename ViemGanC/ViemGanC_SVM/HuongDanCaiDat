@@ -1,0 +1,15 @@
+Nếu bạn chưa cài thư viện thì hãy cài các thư viện dưới đây theo đúng phiên bản
+Các lệnh dưới được chạy ở Teminal của thư mục
+Cài đặt thư viện.
+pip install streamlit==1.21.0
+pip install scikit-learn
+pip install pickle
+pip install tkinter
+pip install streamlit
+
+Khởi chạy ứng dụng nền tảng website.
+streamlit run Web.py
+
+Khởi chạy ứng dụng nền tảng Application Desktop.
+Lưu ý phải chạy file CSDL và chỉnh lại servername cũng như tên đăng nhập của máy chủ SSMS
+python Application_desktop.py
